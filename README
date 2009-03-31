@@ -1,3 +1,15 @@
+Hi. I'm spox and this is a modified version of bindata to
+work on Ruby 1.9. It is not throughly tested, and I am sure
+there are still incompatibility bugs hiding out in the
+source. This has been modified just enough to work with
+my modified version of packetfu (http://github.com/spox/packetfu-spox)
+on 1.9
+
+git clone git://github.com/spox/bindata-spox
+cd bindata-spox
+gem build bindata.gemspec
+gem install bindata-spox-x.x.x.gem
+
 = BinData
 
 A declarative way to read and write structured binary data.
